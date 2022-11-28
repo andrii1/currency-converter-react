@@ -1,0 +1,10 @@
+.main-container {
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+.form {
+  width: 200px;
+  margin: 0 auto;
+  text-align: left;
+}
