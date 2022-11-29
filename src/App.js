@@ -1,11 +1,14 @@
 import logo from "./logo.svg";
 import "./App.css";
 import CurrencyConverter from "./components/CurrencyConverter";
+import { CurrencyProvider } from "./CurrencyContext";
 
 function App() {
   return (
     <div className="App">
-      <CurrencyConverter />
+      <CurrencyProvider>
+        <CurrencyConverter />
+      </CurrencyProvider>
     </div>
   );
 }

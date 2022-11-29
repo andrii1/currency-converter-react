@@ -1,0 +1,44 @@
+.main-container {
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+.form {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.from-currency {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.to-currency {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.search-result {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  height: 30px;
+}
+
+select {
+  height: 36px;
+}
+
+.input-amount {
+  width: 70px;
+}
+
+.input-search {
+  width: 53px;
+}
